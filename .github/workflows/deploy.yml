@@ -1,8 +1,5 @@
 name: Fly Deploy
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
 jobs:
   deploy:
     name: Deploy API
